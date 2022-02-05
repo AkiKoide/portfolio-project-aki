@@ -136,8 +136,17 @@ p {
   max-height: 60px;
 }
 
+.contact-details a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-details a:hover {
+  color: var(--hover-color);
+}
+
 nav {
-  padding: 20px;
+  padding: 18px;
 }
 
 nav ul {
@@ -197,6 +206,10 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 
+footer .contact-box h3 {
+  color: var(--branding-color);
+}
+
 footer .social-links a:hover {
   color: #d4a5a5;
   background: var(--hover-color);
@@ -236,5 +249,27 @@ footer .social-links a:hover {
 
   nav a {
     font-size: 12px;
+  }
+
+  .content-container {
+    padding: 0;
+  }
+
+  .contact-details h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .contact-details h3 {
+    font-size: 18px;
+  }
+
+  .contact-details img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .contact-footer {
+    margin-top: 10px;
   }
 }
